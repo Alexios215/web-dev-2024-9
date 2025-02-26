@@ -30,9 +30,9 @@
   <main>
     <?php
     $x = -11;
-    $encounting = 31;
+    $encounting = 20;
     $step = 2;
-    $min_threshold = -10000;
+    $min_threshold = -1000;
     $max_threshold = 10000;
 
     $outputLines = [];
@@ -115,6 +115,7 @@
       echo "<p>Минимальное значение: {$min}</p>";
       echo "<p>Максимальное значение: {$max}</p>";
       echo "<p>Среднее арифметическое: {$avg}</p>";
+      echo "<br /> ";
     } else {
       echo "<p>Нет числовых значений для вычисления статистики.</p>";
     }
