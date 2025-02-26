@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #004080;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #220f8b;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #e0e0e0;
+    margin-right: 200px;
+}
+
+main ol li {
+    margin-left: 20px;
+}
+
+main ul li {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #220f8b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.block-item {
+    display: inline-block;
+    border: 2px solid rgb(6, 24, 126);
+    margin: 8px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
